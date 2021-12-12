@@ -1,4 +1,7 @@
-# Inertial-Sensor-Signal-Processing:
+# Inertial-Sensor-Signal-Processing: 
+
+This Repo contains code for the ECEN 5813 PES FINAL PROEJECT for FALL 2021 which is implemented on FRDM KL25Z.
+Special thanks to @howdypierce for all lectures.
 
 ## Objective : 
 To implement MMA8451Q , on-board inertial sensor over I2C for orientation and motion detection(acceleration) on KL25Z.
