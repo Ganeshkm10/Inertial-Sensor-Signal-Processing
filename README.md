@@ -52,3 +52,8 @@ As per the above picture, KL25Z will be receiving wheel speed values continuosly
                             Expected behavior : LEDs start flashing.
                        ![Skid_detected](Skidding.png)
 
+
+Reference : Reference : https://github.com/sunsided/frdm-kl25z-marg-fusion/blob/master/frdm-kl25z-acc-uart/Sources/i2c
+                        https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_8/I2C-Demo/src
+                        https://github.com/sunsided/frdm-kl25z-marg-fusion/blob/master/frdm-kl25z-acc-uart/Sources
+                        Text Book : Embedded Systems Fundamentals with ARM Cortex-M based Microcontrollers: A Practical Approach FRDM-KL25Z Edition 
