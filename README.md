@@ -34,19 +34,21 @@ As per the above picture, KL25Z will be receiving wheel speed values continuosly
                             Ax,Ay - 0
                             Az    - 1 (in terms of g)
                             LEDs behavior : Ideally all LEDs should be in OFF state.(SMALL level of brightness can be seen due to uncalibrated sensor)
-                            
-                    Refer the below picture 
-                    
-                    ![Flat Surface ](FlatSurface.jpg)
+                           Refer the below picture 
+                       ![Flat Surface ](Flatsurface.png)
    2. Tilt the board in horizontal direction :
            Expected values : Pitch - 0
                              Roll - depends on the tilt
                              LEDs : Green LED PWM can be seen
+                             Refer the below picture 
+                       ![ROLL](Roll.png)
    3. Tilt  the board in vertical direction :
            Expected values : Pitch - depends on the tilt
                              Roll - 0
                              LEDs : Blue LED PWM can be seen
+                             Refer the below picture 
+                       ![PITCH](Pitch.png)
    4. Sudden Acceleration (Since other sensor value is zero, Skidding is detected.
                             Expected behavior : LEDs start flashing.
-
+                       ![Skid_detected](Skidding.png)
 
