@@ -1,6 +1,6 @@
 # Inertial-Sensor-Signal-Processing: 
 
-This Repo contains code for the ECEN 5813 PES FINAL PROEJECT for FALL 2021 which is implemented on FRDM KL25Z.
+This Repository contains code for the ECEN 5813 PES FINAL PROEJECT for FALL 2021 which is implemented on FRDM KL25Z.
 
 Special thanks to @howdypierce for all lectures.
 
