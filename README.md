@@ -33,30 +33,39 @@ As per the above picture, KL25Z will be receiving wheel speed values continuosly
                             Roll  - 0
                             Ax,Ay - 0
                             Az    - 1 (in terms of g)
-                            LEDs behavior : Ideally all LEDs should be in OFF state.(SMALL level of brightness can be seen due to uncalibrated sensor
-           
-                       ![Flat Surface ](Flatsurface.png)
+                           LEDs behavior : Ideally all LEDs should be in OFF state.(SMALL level of brightness can be seen due to uncalibrated sensor
+                         ![Flat Surface ](Flatsurface.png)
    2. Tilt the board in horizontal direction :
            Expected values : Pitch - 0
                              Roll - depends on the tilt
-                             LEDs : Green LED PWM can be seen
-                             Refer the below picture 
-                       ![ROLL](Roll.png)
+                             LEDs : Green LED PWM can be seen. 
+                          ![ROLL](Roll.png)
    3. Tilt  the board in vertical direction :
            Expected values : Pitch - depends on the tilt
                              Roll - 0
-                             LEDs : Blue LED PWM can be seen
-                             Refer the below picture 
-                       ![PITCH](Pitch.png)
+                             LEDs : Blue LED PWM can be seen.
+                          ![PITCH](Pitch.png)
    4. Sudden Acceleration (Since other sensor value is zero, Skidding is detected.
                             Expected behavior : LEDs start flashing.
                        ![Skid_detected](Skidding.png)
+                       
+## Development Environment : MCUXpresso IDE Version 11.2.0
 
+## Compilation :
+  Open project in the IDE.
+  Click on Build project.
+  DEBUG Mode is supported.
 
-Reference :  1. https://github.com/sunsided/frdm-kl25z-marg-fusion/blob/master/frdm-kl25z-acc-uart/Sources/i2c
-             2. https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_8/I2C-Demo/src
-             3. https://github.com/sunsided/frdm-kl25z-marg-fusion/blob/master/frdm-kl25z-acc-uart/Sources
-             4. Text Book : Embedded Systems Fundamentals with ARM Cortex-M based Microcontrollers: A Practical Approach FRDM-KL25Z Edition 
+## DEBUG MESSAGES :  
+  Set debug console to UART in the IDE. 
+       or
+   Use tera term with the Baud rate 115200 as the setting to see the debug messages.
+
+## Reference :  
+  1. https://github.com/sunsided/frdm-kl25z-marg-fusion/blob/master/frdm-kl25z-acc-uart/Sources/i2c
+  2. https://github.com/alexander-g-dean/ESF/blob/master/NXP/Code/Chapter_8/I2C-Demo/src
+  3. https://github.com/sunsided/frdm-kl25z-marg-fusion/blob/master/frdm-kl25z-acc-uart/Sources
+  4. Text Book : Embedded Systems Fundamentals with ARM Cortex-M based Microcontrollers: A Practical Approach FRDM-KL25Z Edition 
             
             
              
