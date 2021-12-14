@@ -26,7 +26,7 @@ Pitch = atan2(aX, sqrt(aY*aY + aZ*aZ)) * 180/PI;
 As per the above picture, KL25Z will be receiving wheel speed values continuosly from the wheel speed sensor and It will be comparing the same with its own accelerometer (Ax) readings. As soon as wheel speed sensor reading becomes "0" but still on board accelerometer if showing some value, Then it is decided that the vehicle is skidding. This is the principle behind skid detection.
 
 ## Testing Strategy : 
-1. Test functions are written for Queue module and I2C module which will be executed after initialization of each module.
+1. Test functions are written for Queue module and I2C module which will be executed after initialization of each module (Considered Negative test cases also).
 2. Manual testing has to be done for MMA8451Q Sensor. 
    1. On Flat surface in standstill position:
              Ideal values : Pitch - 0
