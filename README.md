@@ -33,8 +33,8 @@ As per the above picture, KL25Z will be receiving wheel speed values continuosly
                             Roll  - 0
                             Ax,Ay - 0
                             Az    - 1 (in terms of g)
-                            LEDs behavior : Ideally all LEDs should be in OFF state.(SMALL level of brightness can be seen due to uncalibrated sensor)
-                           Refer the below picture 
+                            LEDs behavior : Ideally all LEDs should be in OFF state.(SMALL level of brightness can be seen due to uncalibrated sensor
+           
                        ![Flat Surface ](Flatsurface.png)
    2. Tilt the board in horizontal direction :
            Expected values : Pitch - 0
